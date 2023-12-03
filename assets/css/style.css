@@ -16,7 +16,6 @@ ul, li {
   letter-spacing: -2px;
 }
 
-/* bow shadow */
 
 /* navigation */
 .navbar {
@@ -45,7 +44,17 @@ ul, li {
   color: var(--black);
 }
 
+/* buttons (box shadow - hover effect) */
+.btn {
+  background-color: var(--yellow) !important;
+  color: var(--black) !important;
+}
 
+.btn:hover {
+  background-color: var(--green) !important;
+  color: var(--black) !important;
+  box-shadow: 15px 15px 15px var(--grey) !important;
+}
 
 /* hero */
 

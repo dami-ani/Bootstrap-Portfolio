@@ -4,6 +4,7 @@
   --pink: #f4e0f1;
   --grey: #c6d4d7;
   --black: #000000;
+  --white: #ffffff;
 }
 
 h1, h2, h3, h4, a, p {
@@ -19,7 +20,7 @@ ul, li {
 
 /* navigation */
 .navbar {
-  background-color: var(--pink) !important;
+  background-color: var(--white)!important;
 }
 
 .navbar-brand img {
@@ -44,7 +45,7 @@ ul, li {
   color: var(--black);
 }
 
-/* buttons (box shadow - hover effect) */
+/* button (box shadow - hover effect) */
 .btn {
   background-color: var(--yellow) !important;
   color: var(--black) !important;
@@ -57,7 +58,14 @@ ul, li {
 }
 
 /* hero */
-
+.jumbotron {
+  background-color: var(--yellow);
+  min-height: 600px;
+  display: grid;
+  grid-template-columns: 45% 60%;
+  align-items: center;
+  padding: 5%;
+}
 
 
 /* card */
@@ -75,8 +83,15 @@ ul, li {
 
 .card-text {
   flex-grow: 1;
+  font-size: 30px;
+  font-weight: 200;
 }
 
+.card-title {
+  font-size: 40px;
+  font-weight: 600;
+  letter-spacing: -4px;
+}
 
 /* skills */
 /* footer */

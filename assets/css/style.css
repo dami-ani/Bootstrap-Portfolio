@@ -9,3 +9,66 @@
 h1, h2, h3, h4, a, p {
   font-family: 'Hanken Grotesk';
 }
+
+ul, li {
+  font-size: 30px;
+  font-weight: 900 !important;
+  letter-spacing: -2px;
+}
+
+/* bow shadow */
+
+/* navigation */
+.navbar {
+  background-color: var(--pink) !important;
+}
+
+.navbar-brand img {
+  transition: transform 0.3s ease-in-out;
+}
+
+.navbar-brand:hover img {
+  animation: rotate 5s linear infinite; 
+  border-radius: 50%;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.navbar-nav .nav-link {
+  color: var(--black);
+}
+
+
+
+/* hero */
+
+
+
+/* card */
+.card {
+  margin-bottom: 20px; 
+  border: none !important;
+}
+
+.card-body {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  border: none;
+}
+
+.card-text {
+  flex-grow: 1;
+}
+
+
+/* skills */
+/* footer */
+/* contact */

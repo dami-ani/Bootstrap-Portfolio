@@ -1,0 +1,11 @@
+:root {
+  --yellow: #f4ffc2;
+  --green: #d3eddd;
+  --pink: #f4e0f1;
+  --grey: #c6d4d7;
+  --black: #000000;
+}
+
+h1, h2, h3, h4, a, p {
+  font-family: 'Hanken Grotesk';
+}

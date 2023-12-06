@@ -3,7 +3,6 @@
   --green: #d3eddd;
   --pink: #f4e0f1;
   --grey: #c6d4d7;
-  --black: #000000;
   --white: #ffffff;
 }
 
@@ -19,7 +18,7 @@ p {
 ul,
 li {
   font-size: 30px;
-  font-weight: 900 !important;
+  font-weight: 900;
   letter-spacing: -2px;
 }
 
@@ -30,9 +29,9 @@ h1 {
 }
 
 h3 {
-  font-size: 50px !important;
-  font-weight: 600 !important;
-  letter-spacing: -7px !important;
+  font-size: 50px;
+  font-weight: 600;
+  letter-spacing: -3px;
 }
 
 p {
@@ -42,7 +41,7 @@ p {
 
 /* navigation */
 .navbar {
-  background-color: var(--pink) !important;
+  background-color: var(--pink);
 }
 
 .navbar-brand img {
@@ -71,13 +70,11 @@ p {
 /* btn */
 .btn {
   background-color: var(--yellow) !important;
-  color: var(--black) !important;
 }
 
 .btn:hover {
   background-color: var(--grey) !important;
-  color: var(--black) !important;
-  box-shadow: 15px 15px 15px var(--grey) !important;
+  box-shadow: 15px 15px 15px;
 }
 
 /* hero */
@@ -103,25 +100,20 @@ p {
 
 .card-text {
   flex-grow: 1;
-  font-size: 25px !important;
-  font-weight: 200;
 }
 
 .card-title {
   font-size: 40px;
-  font-weight: 300 !important;
   letter-spacing: -4px;
 }
 
 /* skills */
 .grid {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(4, 1fr);
   grid-column-gap: 15px;
   grid-row-gap: 15px;
   height: 750px;
-  width: 960px;
+  width: 100%;
 }
 
 .gridCell {
@@ -145,16 +137,10 @@ p {
   width: 100%;
 }
 
-.gridCell p {
-  line-height: 2;
-  font-size: 12px;
-  padding: 24px;
-  text-align: center;
-}
 
 .gridCell h2 {
-  font-weight: 900;
-  font-size: 18px;
+  font-weight: 600;
+  font-size: 40px;
   text-align: center;
 }
 

@@ -1,5 +1,5 @@
 # Bootstrap-Portfolio
-A bootcamp project on creating a Bootstrap personal portfolio.
+A project on creating a Bootstrap personal portfolio.
 
 https://dami-ani.github.io/Bootstrap-Portfolio/ 
 
